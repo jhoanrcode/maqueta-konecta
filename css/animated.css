@@ -1,0 +1,131 @@
+/*
+Theme Name: Jhoan_Avila_Prueba_Maquetacion
+Theme URI: https://co.linkedin.com/in/jhoanravila
+Author: Jhoan Avila
+Author URI: https://co.linkedin.com/in/jhoanravila
+Description: Desarrollo de Prueba Tecnica Maquetación
+Version: 1.0
+*/
+
+/*************
+* FadeInRight *
+*************/
+@-webkit-keyframes fadeInRight { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(300px); 
+    } 
+    50%{
+       opacity: 0.3; 
+    }
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+} 
+@keyframes fadeInRight { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(300px); 
+    } 
+    50%{
+       opacity: 0.3; 
+    }
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInRight{ 
+    opacity: 0; 
+    -webkit-transform: translateX(300px); 
+    transform: translateX(300px);
+    -webkit-animation: fadeInRight 1.5s both ; 
+    animation: fadeInRight 1.5s both ; 
+}
+
+/*************
+* FadeInUp *
+*************/
+
+@-webkit-keyframes fadeInUp { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateY(50px); 
+    } 
+    50%{
+       opacity: 0.3; 
+    }
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateY(0); 
+    } 
+} 
+@keyframes fadeInUp { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(50px); 
+    } 
+    50%{
+       opacity: 0.3; 
+    }
+    100% { 
+        opacity: 1; 
+        transform: translateY(0); 
+    } 
+} 
+.fadeInUp{ 
+    opacity: 0; 
+    -webkit-transform: translateY(50px); 
+    transform: translateY(50px);
+    -webkit-animation: fadeInUp 1.5s both ; 
+    animation: fadeInUp 1.5s both ; 
+}
+
+/***********
+* bounceIn *
+************/
+@-webkit-keyframes bounceIn { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: scale(.3); 
+    } 
+
+    50% { 
+        opacity: 1; 
+        -webkit-transform: scale(1.05); 
+    } 
+
+    70% { 
+        -webkit-transform: scale(.9); 
+    } 
+
+    100% { 
+         -webkit-transform: scale(1); 
+    } 
+} 
+
+@keyframes bounceIn { 
+    0% { 
+        opacity: 0; 
+        transform: scale(.3); 
+    } 
+
+    50% { 
+        opacity: 1; 
+        transform: scale(1.05); 
+    } 
+
+    70% { 
+        transform: scale(.9); 
+    } 
+
+    100% { 
+        transform: scale(1); 
+    } 
+} 
+
+.bounceIn { 
+    -webkit-animation: bounceIn 1.5s both ; 
+    animation: bounceIn 1.5s both ; 
+}
